@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "581349280836",
+    "firebase_url": "https://dublinbike-5e319.firebaseio.com",
+    "project_id": "dublinbike-5e319",
+    "storage_bucket": "dublinbike-5e319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581349280836:android:b890d9ecb0bcc22a",
+        "android_client_info": {
+          "package_name": "com.example.hasna.dublinbike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581349280836-b9473grfhgh4bp92ei51l37k28nkdhiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hasna.dublinbike",
+            "certificate_hash": "cc56fc6e46895a5ab6607ad8aa986c681740021f"
+          }
+        },
+        {
+          "client_id": "581349280836-gq8hjj00uphgcl5a0kfe82lsihgccgvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyNnpSkfbiytrWNAeZ9i8eCnsU_w93fm4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581349280836-gq8hjj00uphgcl5a0kfe82lsihgccgvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

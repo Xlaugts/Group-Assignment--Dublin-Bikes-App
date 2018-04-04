@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.groupassignment.dublinbike.FavouriteTrip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Add Favourite Trip"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/editTextTripName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:hint="Trip Name" />
+
+        <EditText
+            android:textSize="15sp"
+            android:id="@+id/editTextStartName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start Location Name" />
+
+        <EditText
+            android:textSize="15sp"
+            android:id="@+id/editTextEndName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="End Location Name" />
+
+        <EditText
+            android:textSize="15sp"
+            android:id="@+id/editTextTripDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Add Date (DD/MM/YYYY)" />
+
+        <EditText
+            android:textSize="15sp"
+            android:id="@+id/editTextComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Add Comments" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:id="@+id/buttonAddTrip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Record" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
